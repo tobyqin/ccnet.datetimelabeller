@@ -33,13 +33,7 @@ Modify your ccnet.config file, under the <project> node
 
 The complete config  as bellow:
 ```xml
-     <labeller type="tfsRevisionLabeller">
-	    <executable>c:\program\tf.exe</executable>  <!- Optional ->
-        <project>$/Main/MyTestProject</project>
-        <server>http://server:8080/tfs/Collection</server>
-        <username>user</username>
-        <password>password</password>
-        <domain>domain</domain>
+     <labeller type="tfsRevisionLabeller">	   
         <major>1</major>
         <minor>4</minor>
 		<build>1234</build>       <!- Optional, will overwrite generated value->
