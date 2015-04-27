@@ -16,7 +16,7 @@ using ThoughtWorks.CruiseControl.Remote;
 
 namespace ccnet.datetimelabeller.plugin
 {
-    [ReflectorType("DatetimeLabeller")]
+    [ReflectorType("datetimeLabeller")]
     public class DatetimeLabeller : ITask, ILabeller
     {
         public DatetimeLabeller()
