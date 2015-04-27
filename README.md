@@ -33,7 +33,7 @@ Modify your ccnet.config file, under the <project> node
 
 The complete config  as bellow:
 ```xml
-     <labeller type="tfsRevisionLabeller">	   
+     <labeller type="datetimeLabeller">	   
         <major>1</major>
         <minor>4</minor>
 		<build>1234</build>       <!- Optional, will overwrite generated value->
