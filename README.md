@@ -1,17 +1,17 @@
 # ccnet.datetimelabeller
 
-Datetime labeller for CruiseControl.NET
+Datetime labeller for CruiseControl.NET.
 
 
-##Description
+## Description
 
 Datetime Labeller for CC.NET makes possible to label your builds with customized date time format.
 
-##Introduction
+## Introduction
 
 Create build label with specific date time format.
 
-##Installation
+## Installation
 
 Download ccnet.datetimelabeller.plugin.dll file  from Release into the CruiseControl.NET Installation folder (e.g. C:\Program Files\CruiseControl.NET\server), 
 Restart the CruiseControl.NET Service.
@@ -22,7 +22,7 @@ Restart the CruiseControl.NET Service.
 
 Modify your ccnet.config file to effectively use the labeller.
 
-##Use
+## How to use
 
 Modify your ccnet.config file, under the `<project>` node
 
