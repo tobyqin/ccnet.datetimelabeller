@@ -24,7 +24,7 @@ Modify your ccnet.config file to effectively use the labeller.
 
 ## How to use
 
-Modify your ccnet.config file, under the `<project>` node
+Modify your `ccnet.config` file, under the `<project>` node add a lableller as:
 
 ```xml
 <labeller type="datetimeLabeller">       
@@ -34,7 +34,7 @@ Modify your ccnet.config file, under the `<project>` node
   </labeller>
 ```
 
-The complete config  options are as bellow:
+The full exmaple for `<datatimeForamt/>` please refer to [MSDN DateTime Format](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx). The complete config  options example is here:
 
 ```xml
 <labeller type="datetimeLabeller">	   
